@@ -9,11 +9,19 @@
     background-color: rgb(70, 134, 190);
     border: 1px solid black;
 }
+
 #grass{
-    
     width: 100%;
     height: 10%;
     top: 90%;
     background-color: rgb(68, 107, 29);
+    position: relative;
+}
+
+#char{
+    width: 20px;
+    height: 10%;
+    top: 90%;
+    background-color: red;
     position: relative;
 }
