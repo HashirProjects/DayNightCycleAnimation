@@ -4,10 +4,11 @@
 }
 
 #gameWindow{
-    width: 80%;
+    width: 1000px;
     height: 500px;
+    top: 0%;
     background-color: rgb(70, 134, 190);
-    border: 1px solid black;
+    position: relative;
 }
 
 #grass{
@@ -18,10 +19,11 @@
     position: relative;
 }
 
-#char{
-    width: 20px;
-    height: 10%;
-    top: 90%;
-    background-color: red;
+#sun{
+    width: 25px;
+    height: 25px;
+    top: 400px;
+    left: 0px;
+    background-color: rgb(214, 190, 55);
     position: relative;
 }
