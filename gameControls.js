@@ -9,18 +9,20 @@ let day = {
         sun.style.left = this.x + "px";
         sun.style.top = y + "px";
     
-        if (parseInt(sun.style.left) > 1000) {
+        if (parseInt(sun.style.left) > 975) {
             sun.style.left=0;
             sun.style.top=400;
+            this.x=0;
         }
     },
 
-    endlessLoop: function () { 
-        setInterval(this.moveSun(), 16) 
+    endlessLoop: function () {
+        setInterval(() => {
+            this.moveSun();
+        }, 16);
     }
 
 }
 
-for (let index = 0; index < 1000; index++) {
-    day.moveSun();
-}
+day.endlessLoop();
+
