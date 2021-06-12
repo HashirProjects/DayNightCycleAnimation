@@ -7,7 +7,7 @@
     width: 1000px;
     height: 500px;
     top: 0%;
-    background-color: rgb(70, 134, 190);
+    background-color: lightblue;
     position: relative;
 }
 
@@ -24,6 +24,6 @@
     height: 25px;
     top: 400px;
     left: 0px;
-    background-color: rgb(214, 190, 55);
+    background-color: yellow;
     position: relative;
 }
