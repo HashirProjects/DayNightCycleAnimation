@@ -1,0 +1,1 @@
+A simple day night cycle made to learn some of the basics in JS
